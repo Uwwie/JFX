@@ -1,0 +1,72 @@
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color : rgb(237,180,152);
+    -fx-border-color : rgb(237,180,152);
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color : rgb(237,180,152);
+    -fx-border-color : rgb(237,180,152);
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-background-color : rgb(150,109,88);
+    -fx-border-color : rgb(150,109,88);
+}
+
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color : rgb(223,132,110);
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color : rgb(223,132,110);
+}
+
+.list-cell:focused {
+    -fx-background-insets:0px;
+}
+
+.list-view,
+.split-pane { -fx-background-insets: 0;  }
+
+.list-cell {
+    -fx-control-inner-background: rgb(239,209,195);
+    -fx-text-fill: darkorange ;
+    -fx-font-size: 1.5em ;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe Script";
+    -fx-alignment: center ;
+}
+
+.list-view {
+        -fx-background-color : rgb(237,180,152);
+        -fx-border-color : rgb(237,180,152);
+}
+
+.list-cell:filled:selected:focused,
+.list-cell:filled:selected:odd {
+-fx-background-color: rgb(33,66,100);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
